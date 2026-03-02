@@ -3,87 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H20 Educatie | Leren door spelen</title>
-    <meta name="description" content="H20 Educatie biedt interactieve leertools voor het onderwijs. Ontdek onze tools en begin vandaag.">
+    <title>H20 Educatie | Gaming Impacting the World</title>
+    <meta name="description" content="H20 Educatie biedt interactieve leertools voor het onderwijs — waar gaming en leren samenkomen.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation -->
+    <!-- ── NAVBAR ── -->
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">
-                <span class="logo-play">▶</span>
-                <span class="logo-name">H20 <span class="logo-edu">Educatie</span></span>
+        <div class="nav-inner">
+            <a href="#" class="logo" aria-label="H20 Educatie">
+                <img src="h20-logo-rood.png" alt="H20 Educatie" class="logo-img">
+                <span class="logo-subbrand">EDUCATIE</span>
             </a>
-            <a href="#tools" class="btn-nav">Bekijk tools</a>
+            <a href="#tools" class="nav-cta">Bekijk tools</a>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="hero">
-        <div class="hero-pattern" id="hero-pattern"></div>
-        <div class="hero-overlay"></div>
+    <!-- ── HERO ── -->
+    <section class="hero" id="hero">
         <div class="hero-content">
-            <div class="hero-badge">
-                <span class="badge-play">▶</span>
-                <span>Gaming Impacting the World</span>
-            </div>
-            <h1>Leren door<br><span class="highlight">spelen</span></h1>
-            <p class="hero-sub">Interactieve tools waarmee leerlingen écht aan de slag gaan. Geen saaie theorie — gewoon doen.</p>
-            <a href="#tools" class="btn-primary">Bekijk de tools</a>
-        </div>
-        <div class="scroll-hint">
-            <span></span>
+            <img src="h20-logo-gitw.png" alt="H20 — Gaming Impacting the World" class="hero-logo">
+            <div class="hero-edu-tag">EDUCATIE</div>
+            <h1 class="hero-title">LEREN<br>DOOR<br>DOEN</h1>
+            <p class="hero-sub">Interactieve tools waar gaming en onderwijs samenkomen. Spelend leren op de H20 campus Amsterdam.</p>
+            <a href="#tools" class="hero-btn">Bekijk de tools</a>
         </div>
     </section>
 
-    <!-- Tools -->
-    <section id="tools" class="tools">
+    <!-- ── TOOLS ── -->
+    <section class="tools" id="tools">
         <div class="container">
-            <div class="section-header">
-                <h2>Onze tools</h2>
-                <p>Klik op een tool om direct aan de slag te gaan</p>
+            <div class="section-label">
+                <img src="h20-logo-rood.png" alt="" class="section-label-icon" aria-hidden="true">
+                <span>H20 EDUCATIE</span>
             </div>
+            <h2 class="section-title">ONZE TOOLS</h2>
+            <p class="section-sub">Klik op een tool om direct aan de slag te gaan</p>
 
             <div class="tools-grid">
 
-                <!-- H20 PyBot -->
-                <a href="https://pybot.h20educatie.com" class="tool-card tool-card--active">
-                    <div class="tool-card__header">
-                        <div class="tool-icon">🤖</div>
-                        <span class="tool-badge tool-badge--live">
-                            <span class="badge-dot"></span>
-                            Live
-                        </span>
+                <!-- H20 PyBot — LIVE -->
+                <a href="https://pybot.h20educatie.com" class="tool-card tool-card--live">
+                    <div class="tool-card__top">
+                        <div class="tool-card__label">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </div>
+                        <div class="tool-card__pillar">EDUCATIE</div>
                     </div>
-                    <div class="tool-card__body">
-                        <h3>H20 PyBot</h3>
-                        <p>Leer programmeren met Python door een robot door een doolhof te navigeren. Van basis bewegingen tot complexe algoritmes.</p>
-                    </div>
+                    <div class="tool-card__name">H20 PYBOT</div>
+                    <p class="tool-card__desc">Leer programmeren met Python door een robot door een doolhof te navigeren. Van basis bewegingen tot complexe algoritmes — spelend leren.</p>
                     <div class="tool-card__footer">
                         <div class="tool-tags">
                             <span class="tag">Python</span>
                             <span class="tag">Logisch denken</span>
                             <span class="tag">Groep 7–12</span>
                         </div>
-                        <span class="tool-arrow">→</span>
+                        <span class="tool-enter">ENTER →</span>
                     </div>
                 </a>
 
                 <!-- Placeholder 2 -->
                 <div class="tool-card tool-card--soon">
-                    <div class="tool-card__header">
-                        <div class="tool-icon tool-icon--dim">🔢</div>
-                        <span class="tool-badge tool-badge--soon">Binnenkort</span>
+                    <div class="tool-card__top">
+                        <div class="tool-card__label tool-card__label--soon">BINNENKORT</div>
+                        <div class="tool-card__pillar tool-card__pillar--soon">EDUCATIE</div>
                     </div>
-                    <div class="tool-card__body">
-                        <h3>Rekenen.ai</h3>
-                        <p>Adaptieve rekenpraktijk met AI feedback. Ieder kind op zijn eigen tempo.</p>
-                    </div>
+                    <div class="tool-card__name tool-card__name--dim">REKENEN.AI</div>
+                    <p class="tool-card__desc tool-card__desc--dim">Adaptieve rekenpraktijk met AI-feedback. Ieder kind leert op zijn eigen niveau en tempo.</p>
                     <div class="tool-card__footer">
                         <div class="tool-tags">
                             <span class="tag tag--dim">Wiskunde</span>
@@ -92,19 +83,19 @@
                     </div>
                 </div>
 
-                <!-- Placeholder 3 -->
+                <!-- Vibe Coder — binnenkort -->
                 <div class="tool-card tool-card--soon">
-                    <div class="tool-card__header">
-                        <div class="tool-icon tool-icon--dim">🌐</div>
-                        <span class="tool-badge tool-badge--soon">Binnenkort</span>
+                    <div class="tool-card__top">
+                        <div class="tool-card__label tool-card__label--soon">BINNENKORT</div>
+                        <div class="tool-card__pillar tool-card__pillar--soon">EDUCATIE</div>
                     </div>
-                    <div class="tool-card__body">
-                        <h3>Meer tools</h3>
-                        <p>We bouwen continu nieuwe interactieve tools. Meer volgt snel.</p>
-                    </div>
+                    <div class="tool-card__name tool-card__name--dim">VIBE CODER</div>
+                    <p class="tool-card__desc tool-card__desc--dim">Leer HTML, CSS en JavaScript met een live code editor en AI-assistent. Zie je code direct in actie.</p>
                     <div class="tool-card__footer">
                         <div class="tool-tags">
-                            <span class="tag tag--dim">In ontwikkeling</span>
+                            <span class="tag tag--dim">HTML / CSS / JS</span>
+                            <span class="tag tag--dim">AI hulp</span>
+                            <span class="tag tag--dim">Groep 8–12</span>
                         </div>
                     </div>
                 </div>
@@ -113,55 +104,86 @@
         </div>
     </section>
 
-    <!-- Over H20 Educatie -->
+    <!-- ── TOOLS VOOR IN DE KLAS ── -->
+    <section class="classroom-tools" id="classroom">
+        <div class="container">
+            <div class="section-label">
+                <img src="h20-logo-rood.png" alt="" class="section-label-icon" aria-hidden="true">
+                <span>AANBEVOLEN</span>
+            </div>
+            <h2 class="section-title">TOOLS VOOR<br>IN DE KLAS</h2>
+            <p class="section-sub">Handige open-source tools die wij aanbevelen voor lessen en workshops</p>
+
+            <div class="tools-grid classroom-grid">
+
+                <!-- Excalidraw -->
+                <a href="/excalidraw" class="tool-card tool-card--ext">
+                    <div class="tool-card__top">
+                        <div class="tool-card__label tool-card__label--ext">
+                            OPEN SOURCE
+                        </div>
+                        <div class="tool-card__pillar tool-card__pillar--ext">TEKENEN</div>
+                    </div>
+                    <div class="tool-card__name">EXCALIDRAW</div>
+                    <p class="tool-card__desc">Digitaal whiteboard voor schetsen, diagrammen en samenwerken. Ideaal voor brainstormsessies en visuele uitleg.</p>
+                    <div class="tool-card__footer">
+                        <div class="tool-tags">
+                            <span class="tag">Whiteboard</span>
+                            <span class="tag">Samenwerken</span>
+                            <span class="tag">Gratis</span>
+                        </div>
+                        <span class="tool-enter tool-enter--ext">OPEN →</span>
+                    </div>
+                </a>
+
+                <!-- Placeholder ext 2 -->
+                <div class="tool-card tool-card--soon">
+                    <div class="tool-card__top">
+                        <div class="tool-card__label tool-card__label--soon">BINNENKORT</div>
+                        <div class="tool-card__pillar tool-card__pillar--soon">MEER</div>
+                    </div>
+                    <div class="tool-card__name tool-card__name--dim">MEER TOOLS</div>
+                    <p class="tool-card__desc tool-card__desc--dim">Meer aanbevolen tools volgen. Suggesties? Mail ons.</p>
+                    <div class="tool-card__footer">
+                        <div class="tool-tags">
+                            <span class="tag tag--dim">In selectie</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── OVER H20 ── -->
     <section class="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-pattern">
-                    <div class="mini-pattern" id="about-pattern"></div>
-                </div>
-                <div class="about-content">
-                    <div class="pillar-label">
-                        <span class="badge-play">▶</span> H20 Educatie
-                    </div>
-                    <h2>Onderwijs dat<br>aansluit bij nu</h2>
-                    <p>H20 Educatie is de educatieve pijler van H20 — een plek waar gaming, technologie en leren samenkomen. We bouwen tools die scholen en leerlingen écht verder helpen.</p>
-                    <div class="about-pillars">
-                        <div class="pillar">
-                            <span class="pillar-icon" style="color: #E1014A">▶</span>
-                            <span>Interactief leren</span>
-                        </div>
-                        <div class="pillar">
-                            <span class="pillar-icon" style="color: #60C2D2">⏸</span>
-                            <span>Op eigen tempo</span>
-                        </div>
-                        <div class="pillar">
-                            <span class="pillar-icon" style="color: #FEC603">🔴</span>
-                            <span>Live in de klas</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="container about-inner">
+            <div class="about-pillars-block">
+                <div class="pillar-row" style="--c:#F06A01">EVENTLOCATIE</div>
+                <div class="pillar-row pillar-row--active" style="--c:#F9CD00">EDUCATIE</div>
+                <div class="pillar-row" style="--c:#7AC300">ENTERTAINMENT</div>
+                <div class="pillar-row" style="--c:#3EBAC8">ESPORTS</div>
+                <div class="pillar-row" style="--c:#1960AE">ESTATE</div>
+            </div>
+            <div class="about-text">
+                <h2 class="about-title">ONDERWIJS DAT<br>AANSLUIT BIJ NU</h2>
+                <p>H20 Educatie is de educatieve pijler van H20 Esports Campus Amsterdam — een plek waar gaming, technologie en leren samenkomen. We bouwen tools die scholen en leerlingen écht verder helpen.</p>
+                <a href="https://h20.gg" target="_blank" class="about-link">h20.gg →</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ── FOOTER ── -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-inner">
-                <div class="footer-brand">
-                    <span class="logo-play">▶</span>
-                    <span class="logo-name">H20 <span class="logo-edu">Educatie</span></span>
-                </div>
-                <div class="footer-links">
-                    <a href="https://h20.gg" target="_blank">H20.gg</a>
-                    <a href="mailto:educatie@h20.gg">educatie@h20.gg</a>
-                </div>
-                <p class="footer-copy">&copy; 2026 H20 Educatie — Gaming Impacting the World</p>
+        <div class="container footer-inner">
+            <img src="h20-logo-rood.png" alt="H20" class="footer-logo-img">
+            <div class="footer-links">
+                <a href="https://h20.gg" target="_blank">H20.gg</a>
+                <a href="mailto:educatie@h20.gg">educatie@h20.gg</a>
             </div>
+            <p class="footer-copy">© 2026 H20 Educatie — Gaming Impacting the World</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
